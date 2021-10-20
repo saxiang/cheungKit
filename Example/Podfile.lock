@@ -1,5 +1,5 @@
 PODS:
-  - cheungKit (0.1.0)
+  - cheungKit (2)
 
 DEPENDENCIES:
   - cheungKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cheungKit: 970825fb6bf6e988fa705ca504357ac438c99ad8
+  cheungKit: 67048fb1adb48fc7d35074151e2d97e865a0a97e
 
 PODFILE CHECKSUM: ea7a75066bc82e26f3993ac2b4f439cd43d33ecd
 
