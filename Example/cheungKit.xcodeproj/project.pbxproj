@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFBF8949BB4D7A0CF3C8824 /* cheungKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = cheungKit.podspec; path = ../cheungKit.podspec; sourceTree = "<group>"; };
+		0DFBF8949BB4D7A0CF3C8824 /* cheungKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cheungKit.podspec; path = ../cheungKit.podspec; sourceTree = "<group>"; };
 		0F11631286DDCA6BB3354150 /* Pods-cheungKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheungKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-cheungKit_Tests/Pods-cheungKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		166267D88C7841FAB422B419 /* Pods_cheungKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cheungKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1683526525BCA06A5F1D7A6B /* Pods-cheungKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheungKit_Example.release.xcconfig"; path = "Target Support Files/Pods-cheungKit_Example/Pods-cheungKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65026EF16C4F38F4ADC25B3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6C0EFDAB4E28B96D30A8DF32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		65026EF16C4F38F4ADC25B3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C0EFDAB4E28B96D30A8DF32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B979559A94DBE9AF59C60367 /* Pods_cheungKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cheungKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				33AEBB59765CFEEACDA37C4D /* Pods-cheungKit_Tests.debug.xcconfig */,
 				0F11631286DDCA6BB3354150 /* Pods-cheungKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenzhanxiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = F9GJHCBYSQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 452F4718209A8A5603B4AE80 /* Pods-cheungKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9GJHCBYSQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cheungKit/cheungKit-Prefix.pch";
 				INFOPLIST_FILE = "cheungKit/cheungKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 1683526525BCA06A5F1D7A6B /* Pods-cheungKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F9GJHCBYSQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cheungKit/cheungKit-Prefix.pch";
 				INFOPLIST_FILE = "cheungKit/cheungKit-Info.plist";

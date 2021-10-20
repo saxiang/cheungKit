@@ -1,0 +1,16 @@
+PODS:
+  - cheungKit (0.1.0)
+
+DEPENDENCIES:
+  - cheungKit (from `../`)
+
+EXTERNAL SOURCES:
+  cheungKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cheungKit: 970825fb6bf6e988fa705ca504357ac438c99ad8
+
+PODFILE CHECKSUM: ea7a75066bc82e26f3993ac2b4f439cd43d33ecd
+
+COCOAPODS: 1.9.3
