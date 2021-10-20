@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFBF8949BB4D7A0CF3C8824 /* cheungKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cheungKit.podspec; path = ../cheungKit.podspec; sourceTree = "<group>"; };
+		0DFBF8949BB4D7A0CF3C8824 /* cheungKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cheungKit.podspec; path = ../cheungKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F11631286DDCA6BB3354150 /* Pods-cheungKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheungKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-cheungKit_Tests/Pods-cheungKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		166267D88C7841FAB422B419 /* Pods_cheungKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cheungKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1683526525BCA06A5F1D7A6B /* Pods-cheungKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cheungKit_Example.release.xcconfig"; path = "Target Support Files/Pods-cheungKit_Example/Pods-cheungKit_Example.release.xcconfig"; sourceTree = "<group>"; };
