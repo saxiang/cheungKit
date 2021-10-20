@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'cheungKit_Example' do
+  pod 'cheungKit', :path => '../'
+
+  target 'cheungKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
