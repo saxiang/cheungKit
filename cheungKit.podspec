@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cheungKit'
-  s.version          = '6'
+  s.version          = '7'
   s.summary          = 'A short description of cheungKit!!!!.'
 
 # This description is used to generate tags and improve search results.
