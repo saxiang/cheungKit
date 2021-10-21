@@ -7,6 +7,7 @@
 
 #import "FSTestCompoent.h"
 #import "UIImage+common.h"
+#import "AFNetworking.h"
 
 @implementation FSTestCompoent
 +(void)prinWithString:(NSString *)hello {
@@ -20,5 +21,16 @@
     UIImageView *imgView = [[UIImageView alloc] initWithImage:testImg];
     imgView.frame = frame;
     [view addSubview:imgView];
+}
+
++(void)dependencyVendor_AFN_weatherWithCity:(NSString *)city {
+    NSDictionary *dict = @{@"city":city};
+    [[AFHTTPSessionManager manager] GET:@"http://wthrcdn.etouch.cn/weather_mini" parameters:dict progress:^(NSProgress * _Nonnull downloadProgress) {
+        NSLog(@"downloadProgress:%@ ",downloadProgress);
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"responseObject:%@ ",responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"error:%@ ",error);
+    }];
 }
 @end

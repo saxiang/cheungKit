@@ -1,15 +1,36 @@
 PODS:
-  - cheungKit (5)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - cheungKit (7):
+    - AFNetworking (~> 3)
 
 DEPENDENCIES:
   - cheungKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   cheungKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cheungKit: c6f5ca6943b28ae831bbc4ab0e6deada385a8e0d
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  cheungKit: 227eb68b7783f201c37d8667ae8fe6db2da1a2dd
 
 PODFILE CHECKSUM: ea7a75066bc82e26f3993ac2b4f439cd43d33ecd
 
